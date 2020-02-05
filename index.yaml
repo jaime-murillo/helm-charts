@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  config-validator:
+  - apiVersion: v1
+    appVersion: 1.0.0+572e207
+    created: "2020-02-05T11:30:05.45191-08:00"
+    description: A Helm chart for Forseti Config Validator
+    digest: 8c80bcf9a15f9755e53178311dc87d85beae5f3b69851889cca2e7777d91a84f
+    home: https://forsetisecurity.org/
+    icon: https://forsetisecurity.org/images/site/logo/blue-logo-trans.png
+    maintainers:
+    - email: kdevensen@forsetisecurity.org
+      name: kevensen
+    - email: shinhannah@forsetisecurity.org
+      name: hshin-g
+    name: config-validator
+    sources:
+    - https://github.com/forseti-security/config-validator
+    - https://gcr.io/forseti-containers/config-validator:572e207
+    urls:
+    - https://github.com/hiloboy0119/helm-charts/releases/download/config-validator-0.2.0/config-validator-0.2.0.tgz
+    version: 0.2.0
+  forseti-security:
+  - apiVersion: v1
+    appVersion: 2.25.0
+    created: "2020-02-05T11:30:05.737235-08:00"
+    description: A Helm chart for Forseti
+    digest: 00b8a2c582741aba39efc9cba1865ac44975b5eebdbddf95affb15ae3331578d
+    home: https://forsetisecurity.org/
+    icon: https://forsetisecurity.org/images/site/logo/blue-logo-trans.png
+    maintainers:
+    - email: kdevensen@forsetisecurity.org
+      name: kevensen
+    - email: shinhannah@forsetisecurity.org
+      name: hshin-g
+    name: forseti-security
+    sources:
+    - https://github.com/forseti-security/forseti-security
+    - https://gcr.io/forseti-containers/forseti:v2.25.0
+    urls:
+    - https://github.com/hiloboy0119/helm-charts/releases/download/forseti-security-2.2.0/forseti-security-2.2.0.tgz
+    version: 2.2.0
+generated: "2020-02-05T11:30:04.84851-08:00"
